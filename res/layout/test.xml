@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+		<Button android:layout_height="wrap_content" android:id="@+id/button1"
+			android:layout_width="wrap_content" android:text="add element"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/button2"
+			android:layout_width="wrap_content" android:text="update element"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/button3"
+			android:layout_width="wrap_content" android:text="add property"></Button>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout2"
+		android:orientation="vertical">
+		<Button android:text="Do Login" android:id="@+id/button4"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<EditText android:id="@+id/editText1" android:layout_height="wrap_content"
+			android:text="resultado" android:layout_width="match_parent"></EditText>
+	</LinearLayout>
+	<Button android:text="Update DB" android:id="@+id/button5"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout4">
+		<Button android:layout_height="wrap_content" android:id="@+id/button6"
+			android:layout_width="wrap_content" android:text="getId"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/button7"
+			android:layout_width="wrap_content" android:text="getIds"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/button8"
+			android:layout_width="wrap_content" android:text="getPropertiesValue"></Button>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout3">
+		<Button android:text="getPropertyValue" android:id="@+id/button9"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="getAllProperties" android:id="@+id/button10"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout5">
+		<Button android:layout_height="wrap_content" android:id="@+id/button11"
+			android:layout_width="wrap_content" android:text="getAllIDs"></Button>
+	</LinearLayout>
+
+
+</LinearLayout>

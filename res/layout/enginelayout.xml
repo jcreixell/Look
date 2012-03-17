@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<android.opengl.GLSurfaceView android:id="@+id/glsurfaceengine"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	</android.opengl.GLSurfaceView>
+	<FrameLayout android:id="@+id/views_hud"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	</FrameLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="horizontal">
+		<Button android:text="X" android:id="@+id/x"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="Y" android:id="@+id/y"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="Z" android:id="@+id/z"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="-X" android:id="@+id/x_minus"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="-Y" android:id="@+id/y_minus"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="-Z" android:id="@+id/z_minus"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="Rotar" android:id="@+id/rotar"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="Trasladar" android:id="@+id/trasladar"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="Escalar" android:id="@+id/escalar"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="Go" android:id="@+id/gobutton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</Button>
+
+	</LinearLayout>
+</FrameLayout>
